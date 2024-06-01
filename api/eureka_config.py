@@ -20,7 +20,7 @@ async def start_eureka_client():
         eureka_server="https://ntic-discovery-server2.onrender.com/eureka/",
         app_name="price_prediction",
         instance_port=8000,  # The port your Django app is running on
-        instance_ip=ip_address,  # The IP address your Django app is running on
+        # instance_ip=ip_address,  # The IP address your Django app is running on
         renewal_interval_in_secs=30,  # Heartbeat interval
         duration_in_secs=90  # Expiry duration
     )
